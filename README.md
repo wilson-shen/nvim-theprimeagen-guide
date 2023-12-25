@@ -25,7 +25,7 @@ Also some plugins in my config like Harpoon and lsp-zero are using the up-to-dat
    ```
 4. Install `build-essential` for linux user, mac/windows I'm not sure do you need this.
    ```
-   sudo apt-get install build-essential
+   sudo apt update && sudo apt install build-essential
    ```
 5. Go through all lua files in `after/plugin/*.lua` run `:so` once in each file.
 6. Again, go through all lua file in `lua/shen/*.lua` and run `:so`, but this time when it comes to `lua/shen/packer.lua`, you will need to run `:PackerSync` after running `:so`.
