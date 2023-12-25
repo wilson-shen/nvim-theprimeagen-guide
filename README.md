@@ -16,7 +16,8 @@ Also some plugins in my config like Harpoon and lsp-zero are using the up-to-dat
    ```
 2. Install packer
    ```
-   git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+   git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
    ```
 3. Clone this repo and start to use
    ```
