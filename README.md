@@ -13,6 +13,8 @@ Also some plugins in my config like Harpoon and lsp-zero are using the up-to-dat
    ./nvim.appimage
    ./nvim.appimage --appimage-extract
    ./squashfs-root/AppRun --version
+   sudo mv squashfs-root /
+   sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
    ```
 2. Install packer
    ```
